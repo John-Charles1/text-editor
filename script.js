@@ -1,6 +1,8 @@
 // program to implement stack data structure
 class Stack {
+    
     constructor() {
+        const a = "ASAs";
         this.items = [];
     }
     
@@ -273,7 +275,7 @@ function parseBrainFck(text){
             result += intToChar(tape[cell_index]);
             console.log(result);
         }else if(instruction === ','){
-            if(user_input === []){
+            if(user_input == []){
                 let currCell = cell_index;
                 let arr = [tape[++currCell]];
                 user_input.push(arr);
