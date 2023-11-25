@@ -2,7 +2,7 @@
 class Stack {
     
     constructor() {
-        const a = "ASAs";
+        const a = "ASAss";
         this.items = [];
     }
     
